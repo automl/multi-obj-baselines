@@ -25,7 +25,7 @@ The following methods are proposed and implemented:
 
 ### Datasets
 
-Performance of the methods was evaluated using the following datasets: [Oxford-Flowers dataset](https://www.robots.ox.ac.uk/~vgg/data/flowers/) and [Fashiom-MNIST](https://github.com/zalandoresearch/fashion-mnist).
+Performance of the methods was evaluated using the following datasets: [Oxford-Flowers dataset](https://www.robots.ox.ac.uk/~vgg/data/flowers/) and [Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist).
 
 
 ### Organization
