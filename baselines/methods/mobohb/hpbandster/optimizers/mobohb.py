@@ -98,6 +98,7 @@ class MOBOHB(Master):
         self.min_budget = min_budget
         self.max_budget = max_budget
         self.init_m = init
+        self.init_m_init = parameters['num_initial_samples']
 
         self.currently_writing = False
 
@@ -146,7 +147,7 @@ class MOBOHB(Master):
 
         if self.init_m:
             self.init_m = False
-            return (SuccessiveHalvingMOBOHB(HPB_iter=iteration, num_configs=[10], budgets=[25]*10,
+            return (SuccessiveHalvingMOBOHB(HPB_iter=iteration, num_configs=[self.init_m_init], budgets=[25]*self.init_m_init,
                                             config_sampler=self.config_generator.get_config, **iteration_kwargs))
         return (SuccessiveHalvingMOBOHB(HPB_iter=iteration, num_configs=ns, budgets=self.budgets[(-s - 1):],
                                         config_sampler=self.config_generator.get_config, **iteration_kwargs))

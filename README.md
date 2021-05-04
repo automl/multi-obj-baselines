@@ -1,6 +1,6 @@
 # Bag of Baselines
 
-Bag of Baselines implements several multi-objective opimisation methods to create a performance benchmark on two small datasets. To learn more about this work, check out the publication: (TODO: insert link)
+Bag of Baselines implements several multi-objective opimisation methods to create a performance benchmark on two small datasets. To learn more about this work, check out the [publication](https://arxiv.org/abs/2105.01015).
 
 
 ### Features
