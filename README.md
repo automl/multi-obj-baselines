@@ -2,13 +2,6 @@
 
 Bag of Baselines implements several multi-objective opimisation methods to create a performance benchmark on two small datasets. To learn more about this work, check out the [publication](https://arxiv.org/abs/2105.01015).
 
-
-### Features
-
-+ Create various multi-objective optimisation methods
-+ Evaluate on flowers and fashion_mnist
-+ Compare hypervolume and pareto front
-
 ### Methods
 
 The following methods are proposed and implemented:
